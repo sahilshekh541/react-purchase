@@ -100,6 +100,7 @@ const App = () => {
 
     // Handling Group PO
     if (formdata.purchaseordertype === "Group PO") {
+      console.log(ptalent);
       if (ptalent.length < 2) {
         alert("Select at least 2 talents for Group PO");
         return;
