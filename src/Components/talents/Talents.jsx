@@ -76,7 +76,6 @@ const Talents = ({
           chkdisable={chkdisable}
           onchange={handlechangeptalent}
           value={value.contractduration}
-          disable={disable}
         />
         <Commoninp
           field="Bill Rate"
@@ -90,7 +89,6 @@ const Talents = ({
           disable={disable}
           chkdisable={chkdisable}
           value={value.billrate}
-          disable={disable}
         />
         <CurrencyDropdown
           callback={onchange}
@@ -116,7 +114,6 @@ const Talents = ({
           onchange={handlechangeptalent}
           chkdisable={chkdisable}
           value={value.stdtimebr}
-          disable={disable}
         />
         <CurrencyDropdown
           callback={onchange}
@@ -141,7 +138,6 @@ const Talents = ({
           disable={disable}
           chkdisable={chkdisable}
           value={value.overtimebr}
-          disable={disable}
         />
         <CurrencyDropdown
           callback={onchange}
